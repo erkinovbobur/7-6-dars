@@ -1,0 +1,188 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #000000, #2c3e50);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #f1f1f1;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+nav a:hover {
+  color: #e74c3c; /* Red hover effect */
+  transform: scale(1.1);
+}
+
+/* Registration Form */
+.registration-container {
+  background: linear-gradient(135deg, #333333, #e74c3c);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+.registration-container h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.registration-container input {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 10px;
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+}
+
+.registration-container input::placeholder {
+  color: #ccc;
+}
+
+.registration-container button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container button:hover {
+  background-color: #c0392b;
+}
+
+
+.list-container {
+  background-color: #1c1c1c;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 82%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+ 
+}
+
+.list-container h2 {
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.list-container input {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e2e2e;
+  border: 2px solid #e74c3c;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.list-container input::placeholder {
+  color: #888;
+}
+
+.list-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-container th,
+.list-container td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #444444;
+}
+
+.list-container th {
+  background-color: #444444;
+  color: #f1f1f1;
+}
+
+.list-container td {
+  color: #eaeaea;
+}
+
+.list-container tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+
+.list-container tr:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+
+.add-student-button {
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-student-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.add-student-button:hover {
+  background-color: #c0392b;
+}
